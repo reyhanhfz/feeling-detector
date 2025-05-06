@@ -1,7 +1,7 @@
 import streamlit as st
 from textblob import TextBlob
 
-st.title("Simple Sentiment Analysis")
+st.title("Feeling Detector")
 
 text = st.text_area("Enter a sentence or review: ")
 
